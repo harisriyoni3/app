@@ -1,0 +1,1 @@
+export let URLsuratdb = "https://goharis-baru.herokuapp.com/nama"
