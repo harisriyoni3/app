@@ -8,7 +8,7 @@ function forOnClick(){
     subject : getValue("subject"),
     isisurat : getValue("isisurat")
   }
-  postWithToken(Urlpost, data, AmbilResponse);
+  postWithToken(Urlpost,"Content-Type","application/json", data, AmbilResponse);
 
 }
 
