@@ -9,10 +9,10 @@ function tabelContent(result){
     userTable(result);
 }
 
-function userTable(jsonParse){
+function userTable(){
     let row = '';
-    jsonParse.forEach((element) => {
-    row = rowtabel.replace("#nama#", element.nama).
+    .forEach((element) => {
+    row = rowtabel.replace("#nama#", element.ha).
         replace("#email#", element.email).
         replace("#telepon#", element.telepon);
     addInner("demo",row);
