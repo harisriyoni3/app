@@ -13,4 +13,5 @@ function forOnClick(){
 }
 
 onClick("button", forOnClick);
+NyalaClick{}
 
