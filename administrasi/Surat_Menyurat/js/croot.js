@@ -6,10 +6,10 @@ get(URLsuratdb, tabelContent);
  
 
 function tabelContent(result){
-    userTable(result);
+    user(result);
 }
 
-function userTable(jsonParse){
+function user(jsonParse){
     let row = '';
     jsonParse.forEach((element) => {
     row = rowtabel.replace("#nama#", element.ha).
