@@ -9,9 +9,9 @@ function tabelContent(result){
     userTable(result);
 }
 
-function userTable(){
+function userTable(jsonParse){
     let row = '';
-    .forEach((element) => {
+    jsonParse.forEach((element) => {
     row = rowtabel.replace("#nama#", element.ha).
         replace("#email#", element.email).
         replace("#telepon#", element.telepon);

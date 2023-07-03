@@ -5,7 +5,7 @@ export let Urlpost = "https://goharis-baru.herokuapp.com/surat/"
 
 export function AmbilResponse(result) {
     console.log(result);
-    setInner("inisemua", result.message);
+    setInner("di", result.message);
 }
 
 export function resetform(){
