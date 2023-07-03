@@ -1,4 +1,4 @@
-
+export let rowtabel = `
 <tr>
                                 <td class="p-2 whitespace-nowrap">
                                     <div class="flex items-center">

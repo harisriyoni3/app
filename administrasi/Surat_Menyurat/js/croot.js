@@ -12,7 +12,7 @@ function tabelContent(result){
 function user(jsonParse){
     let row = '';
     jsonParse.forEach((element) => {
-    row = rowtabel.replace("#nama#", element.ha).
+    row = rowtabel.replace("#nama#", element.nama).
         replace("#email#", element.email).
         replace("#telepon#", element.telepon);
     addInner("demo",row);

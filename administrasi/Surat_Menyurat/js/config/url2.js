@@ -1,11 +1,11 @@
 import { setInner } from "https://jscroot.github.io/element/croot.js";
 
 
-export let Urlpost = "https://goharis-baru.herokuapp.com/surat/"
+export let Urlpost = "https://goharis-baru.herokuapp.com/surat/insert"
 
 export function AmbilResponse(result) {
     console.log(result);
-    setInner("di", result.message);
+    setInner("inisemua", result.message);
 }
 
 export function resetform(){
